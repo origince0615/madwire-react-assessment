@@ -40,9 +40,9 @@ const UsersTable = ({ data, onEditData }) => {
       <TableContainer
         component={Paper}
         style={{
-          borderRadius: '10px',
+          borderRadius: '20px',
           border: '1px solid rgb(220, 220, 220)',
-          boxShadow: '5px 5px 1px 1px rgba(220, 220, 220, 0.2),',
+          boxShadow: '5px 5px 1px 1px rgba(220, 220, 220, 0.4)',
         }}
       >
         <Table sx={{ minWidth: 650 }} aria-label="simple table">
