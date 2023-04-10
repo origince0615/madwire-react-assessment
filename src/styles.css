@@ -29,12 +29,22 @@ h2 {
 
 .UserForm {
   margin-bottom: 4rem;
+  display: flex;
 }
 
 .UserForm fieldset {
   border: 0;
   padding: 0;
-  margin: 0 0 1.5rem;
+  margin: 2.5rem 5rem 2.5rem 1.5rem;
+}
+
+.UserForm button {
+  width: 200px;
+  height: 35px;
+  display: flex;
+  margin-top: 60px;
+  align-items: center;
+  justify-content: center;
 }
 
 .UserForm fieldset label {
